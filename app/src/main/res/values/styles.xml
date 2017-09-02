@@ -1,0 +1,41 @@
+<!--
+  ~ Copyright (c) 2017 Igor Scaglia.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_500</item>
+        <item name="colorPrimaryDark">@color/color_700</item>
+        <item name="colorAccent">@color/color_a200</item>
+        <item name="android:textColor">@color/color_text_500</item>
+        <item name="android:textColorPrimary">@color/color_text_500</item>
+        <item name="android:navigationBarColor">@color/color_a200</item>
+        <item name="android:statusBarColor">@color/color_a200</item>
+    </style>
+
+    <style name="AppTheme.RecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="AppTheme.FlatButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/color_500</item>
+        <item name="android:textColor">@color/color_a200</item>
+    </style>
+</resources>

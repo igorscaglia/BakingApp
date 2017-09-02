@@ -1,0 +1,79 @@
+/*
+ * Copyright (c) 2017 Igor Scaglia.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId "br.com.scagliabaroni.bakingapp"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        // Set the instrumentation runner to AndroidJUnitRunner for Espresso
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // Android Support Library
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    // Espresso for RecyclerView
+    compile 'com.android.support.test.espresso:espresso-contrib:2.2.2'
+    compile 'com.jakewharton:butterknife:8.6.0'
+    // Picasso
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    // GSON
+    compile 'com.google.code.gson:gson:2.8.0'
+    // Retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    // Retrofit with GSON
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    // Exoplayer
+    compile 'com.google.android.exoplayer:exoplayer:r2.4.3'
+    // Schematic
+    compile 'net.simonvt.schematic:schematic:0.7.0'
+    compile 'com.jakewharton.timber:timber:4.5.1'
+    // Local Unit Test
+    testCompile 'junit:junit:4.12'
+    // Android Support Library Testing-only
+    androidTestCompile 'com.android.support:support-annotations:25.3.1'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support.test:rules:0.5'
+    // Espresso
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestCompile 'com.android.support.test.espresso:espresso-intents:2.2.2'
+    // ButterKnife
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+    // Schematic
+    annotationProcessor 'net.simonvt.schematic:schematic-compiler:0.7.0'
+}

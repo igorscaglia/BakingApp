@@ -1,0 +1,38 @@
+<!--
+  ~ Copyright (c) 2017 Igor Scaglia.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name" translatable="false">Baking App</string>
+    <string name="recipes_url" translatable="false">http://go.udacity.com/android-baking-app-json/</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="ingredients_image">Ingredients Image</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="recipe_step_image">Recipe Step Image</string>
+    <string name="no_image_available">ic_noimage</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="restart">Restart</string>
+    <string name="recipe_detail_step_title">%1$s Step %2$d</string>
+    <string name="recipe_ingredients">Recipe Ingredients</string>
+    <string name="none_recipe_was_selected">None recipe was selected</string>
+    <string name="widget_updated">Widget has been updated with %1$s recipe</string>
+    <plurals name="recipe_card_item_summary">
+        <item quantity="one">Serve %d delicious dish.</item>
+        <item quantity="other">Serve %d delicious dishes.</item>
+    </plurals>
+</resources>

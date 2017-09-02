@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017 Igor Scaglia.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <color name="color_500">#fffc92</color>
+    <color name="color_300">#ffffc4</color>
+    <color name="color_700">#cac962</color>
+    <color name="color_a200">#9296ff</color>
+    <color name="color_a300">#c6c7ff</color>
+    <color name="color_a700">#5e68cb</color>
+    <color name="color_text_a200">#000000</color>
+    <color name="color_text_500">#000000</color>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017 Igor Scaglia.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="ingredients">Ingredientes</string>
+    <string name="ingredients_image">Imagem dos Ingredientes</string>
+    <string name="next">Próximo</string>
+    <string name="no_image_available">ic_semimagem</string>
+    <string name="none_recipe_was_selected">Nenhuma receita foi selecionada</string>
+    <string name="pause">Pausa</string>
+    <string name="play">Tocar</string>
+    <string name="previous">Anterior</string>
+    <string name="recipe_detail_step_title">%1$s Passo %2$d</string>
+    <string name="recipe_image">Imagem da Receita</string>
+    <string name="recipe_ingredients">Ingredientes da Receita</string>
+    <string name="recipe_step_image">Imagem do Passo da Receita</string>
+    <string name="restart">Reiniciar</string>
+    <string name="widget_updated">O Widget foi atualizado com a receita %1$s</string>
+    <plurals name="recipe_card_item_summary">
+        <item quantity="one">Serve %d delicioso prato.</item>
+        <item quantity="other">Serve %d deliciosos pratos.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017 Igor Scaglia.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="five">5dp</dimen>
+    <dimen name="eight">8dp</dimen>
+    <dimen name="sixteen">16dp</dimen>
+    <item name="forty_percent" format="float" type="dimen">0.4</item>
+    <item name="fifty_percent" format="float" type="dimen">0.5</item>
+    <item name="sixty_percent" format="float" type="dimen">0.6</item>
+    <dimen name="recipe_preview_width">122dp</dimen>
+    <dimen name="recipe_preview_height">122dp</dimen>
+    <dimen name="item_height">88dp</dimen>
+    <dimen name="item_image_height">48dp</dimen>
+    <dimen name="item_image_width">48dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+</resources>
